@@ -1,0 +1,87 @@
+body {
+  background-color: #fbeee0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.card-container {
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+.card {
+  background: #ffffff;
+  padding: 30px 20px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  border: 1px solid #f0dcd0;
+}
+
+.gif {
+  width: 160px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  color: #d65a31;
+  font-size: 22px;
+  margin: 10px 0;
+}
+
+h2 {
+  color: #444;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.letter-body {
+  color: #555555;
+  font-size: 15px;
+  line-height: 1.6;
+  text-align: left;
+  background-color: #faf3ee;
+  padding: 15px;
+  border-radius: 12px;
+  border-left: 4px solid #d65a31;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 15px;
+  position: relative;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+#btn-yes {
+  background-color: #d65a31;
+  color: white;
+}
+
+#btn-yes:hover {
+  transform: scale(1.03);
+  background-color: #b54823;
+}
+
+#btn-no {
+  background-color: #e0e0e0;
+  color: #555555;
+}
